@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    font-size: 23px;
+    background-color: rgb(7, 170, 159);
+    padding: 0.1px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    background-color: lightblue;
+    padding: 14px;
+    display: inline;
+}
+
+.content {
+    margin: 10px 30px;
+}
+
+.heading {
+    font-size: 42px;
+    color: maroon;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 28px;
+    margin-left: 50px;
+}
+
+.planet_image {
+    width: 350px;
+    height: 350px;
+    align-items: center;
+}
+
+.planet_desc {
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: cursive;
+}
+
+.info {
+    font-size: 17px;
+    color: darkgreen;
+}

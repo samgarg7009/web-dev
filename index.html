@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>my first web page</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function() {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+
+    <div class="content">
+        <h1 class="heading">Planets</h1>
+        <h2 class="subheading">Mercury</h2>
+        <img class="planet_image" src="https://www.nationalgeographic.com/content/dam/science/2018/08/22/mercury/01_mercury_pia15190_orig.ngsversion.1535038209969.adapt.1900.1.jpg" alt="Mercury" />
+        <p class="planet_desc">
+            <b> Mercury </b>is the smallest and closest planet to the sun in the Solar System. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (Ερμής), translated
+            into Latin Mercurius Mercury, god of commerce, messenger of the gods, mediator between gods and mortals.
+        </p>
+        <h2 class="subheading">Venus</h2>
+        <img class="planet_image" src="https://www.universetoday.com/wp-content/uploads/2008/10/Venus-e1489179310371.jpg" alt="venus" />
+        <p class="planet_desc">
+            <b> Venus</b> is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the second-brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasion, visible
+            to the naked eye in broad daylight. [15][16] Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a bit before dawn. Venus orbits the Sun every
+            224.7 Earth days.
+        </p>
+        <h2 class="subheading">Earth</h2>
+        <img class="planet_image" src="https://i.ytimg.com/vi/xncLubEj50k/maxresdefault.jpg" alt="Earth" />
+        <p class="planet_desc">
+            <b>Earth</b> is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also
+            by lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many
+            millions of years.
+        </p>
+        <p class="info">For more information
+            <a href="https://en.wikipedia.org/wiki/Solar_System#:~:text=The%20Solar%20System%20is%20the,and%20small%20Solar%20System%20bodies." target="_blank"> <b>click here</b></a>
+        </p>
+    </div>
+
+</body>
+
+</html>
